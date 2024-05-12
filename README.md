@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# DumpQuotes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Disclaimer: 
+This project is a work of satire and parody intended for entertainment purposes only. Any resemblance to real persons, living or dead, is purely coincidental. While certain elements may reference public figures, including former U.S. presidents, it is important to note that this is not intended to be a factual representation or commentary on their character, actions, or policies. We respect the rights and dignity of all individuals, including those who have held high public office. Viewer discretion is advised, and interpretation of content should be taken in the spirit of humor and satire.
 
-## Available Scripts
+### Simple and fun project that uses [Tronald Dump API](https://www.tronalddump.io/) to fetch data and React to display it combined with Tailwind CSS.
 
-In the project directory, you can run:
+## Usage
 
-### `npm start`
+1. **Clone repo**: 
+   ```terminal 
+   git clone <LINK>
+   ````
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+2. **Enter repo**:
+```terminal
+cd dump 
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+3. **Install Modules:**
+```terminal 
+npm install
+```
 
-### `npm test`
+4. **Install Tailwind CSS (if needed):**
+###### If the project uses Tailwind CSS and it's not listed in package.json, you need to install it. Run:
+```terminal 
+npm install tailwindcss
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. **Set up Tailwind CSS (if needed):**
+###### After installing Tailwind CSS, you might need to set it up. This typically involves creating a configuration file (usually named tailwind.config.js). Generate it by running:
 
-### `npm run build`
+```terminal 
+npx tailwindcss init
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+6. **Run the app:**
+```terminal 
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Following these steps will get the "DumpQuotes" React app up and running on your local machine. Make sure to replace <LINK> with the actual URL of the GitHub repository you want to clone.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 
+Feel free to copy and paste this markdown into your project documentation. Let me know if you need further assistance!
